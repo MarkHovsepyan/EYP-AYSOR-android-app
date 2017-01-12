@@ -13,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 
 import com.aysoreyp.aysor.R;
 
@@ -81,14 +83,22 @@ public class HomeActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
+        Fragment newFragment;
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            //
+            newFragment = new HomeFragment();
+            transaction.replace(R.id.content_main, newFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
         } else if (id == R.id.nav_commitees) {
-            Intent newAct = new Intent(getApplicationContext(), CommiteesActivity.class);
-            startActivity(newAct);
-
+            newFragment = new CommiteesFragment();
+            transaction.replace(R.id.content_main, newFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
         } else if (id == R.id.nav_schedule) {
 
         } else if (id == R.id.nav_media) {
