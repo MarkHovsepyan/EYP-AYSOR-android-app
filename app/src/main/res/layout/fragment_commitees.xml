@@ -1,14 +1,142 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="fill_parent"
     android:layout_height="match_parent"
     tools:context="com.aysoreyp.aysor.fragments.CommiteesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Commitees fragment"
-        android:id="@+id/frag_2_text" />
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/commitee_bt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="start"
+        android:src="@drawable/commitee_1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="18dip"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/commitee_bt_1"
+        android:src="@drawable/commitee_2"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:layout_marginTop="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="start"
+        android:layout_below="@id/commitee_bt_1"
+        android:src="@drawable/commitee_3"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/commitee_bt_3"
+        android:layout_below="@id/commitee_bt_2"
+        android:src="@drawable/commitee_4"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="start"
+        android:layout_below="@id/commitee_bt_3"
+        android:src="@drawable/commitee_5"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/commitee_bt_5"
+        android:layout_below="@id/commitee_bt_4"
+        android:src="@drawable/commitee_6"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="start"
+        android:layout_below="@id/commitee_bt_5"
+        android:src="@drawable/commitee_7"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/commitee_bt_7"
+        android:layout_below="@id/commitee_bt_6"
+        android:src="@drawable/commitee_8"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="start"
+        android:layout_below="@id/commitee_bt_7"
+        android:src="@drawable/commitee_9"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+    <ImageButton
+        android:id="@+id/commitee_bt_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/commitee_bt_9"
+        android:layout_below="@id/commitee_bt_8"
+        android:src="@drawable/commitee_10"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="18dip"
+        android:clickable="true"/>
+
+</RelativeLayout>
+</ScrollView>
