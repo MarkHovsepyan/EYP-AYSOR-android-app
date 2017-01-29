@@ -1,6 +1,5 @@
 package com.aysoreyp.aysor.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,6 +16,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 
 import com.aysoreyp.aysor.R;
+import com.aysoreyp.aysor.fragments.CommiteesFragment;
+import com.aysoreyp.aysor.fragments.HomeFragment;
+import com.aysoreyp.aysor.fragments.MediaFragment;
+import com.aysoreyp.aysor.fragments.ScheduleFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -100,9 +103,15 @@ public class MainActivity extends AppCompatActivity
             transaction.addToBackStack(null);
             transaction.commit();
         } else if (id == R.id.nav_schedule) {
-
+            newFragment = new ScheduleFragment();
+            transaction.replace(R.id.content_main, newFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
         } else if (id == R.id.nav_media) {
-
+            newFragment = new MediaFragment();
+            transaction.replace(R.id.content_main, newFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
         } else if (id == R.id.nav_about) {
 
         } else if (id == R.id.nav_contacts) {
