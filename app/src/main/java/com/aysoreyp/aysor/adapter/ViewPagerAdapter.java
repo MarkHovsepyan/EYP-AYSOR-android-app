@@ -11,10 +11,6 @@ import com.aysoreyp.aysor.fragments.HomeFragment;
 import com.aysoreyp.aysor.fragments.MediaFragment;
 import com.aysoreyp.aysor.fragments.ScheduleFragment;
 
-/**
- * Created by Narek Babajanyan on 1/30/2017.
- */
-
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private int drawables[] = {

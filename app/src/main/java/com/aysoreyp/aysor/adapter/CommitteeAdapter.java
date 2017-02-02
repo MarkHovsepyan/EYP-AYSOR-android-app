@@ -14,10 +14,6 @@ import com.aysoreyp.aysor.R;
 import com.aysoreyp.aysor.activities.CommitteeDetailActivity;
 import com.squareup.picasso.Picasso;
 
-/**
- * Created by Narek Babajanyan on 2/1/2017.
- */
-
 public class CommitteeAdapter extends RecyclerView.Adapter<CommitteeAdapter.ViewHolder>{
 
     private int[] logos = {
