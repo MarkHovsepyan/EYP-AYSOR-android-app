@@ -20,7 +20,7 @@ public class ScheduleActivity extends AppCompatActivity {
 
         int day = getIntent().getExtras().getInt("day");
         getSupportActionBar().setTitle("Day " + (day+1));
-        
+
 
         adapter = new ScheduleAdapter(this, day);
 
@@ -30,7 +30,5 @@ public class ScheduleActivity extends AppCompatActivity {
         scheduleRecycler.setLayoutManager(new LinearLayoutManager(this));
         scheduleRecycler.setHasFixedSize(true);
         scheduleRecycler.setAdapter(adapter);
-
-
     }
 }
