@@ -46,9 +46,6 @@ public class CommitteeDetailActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle(texts[position][0]);
 
-        //TODO: Remove this
-        Toast.makeText(this, "Item number " + position + " clicked", Toast.LENGTH_SHORT).show();
-
         committeeText.setText(texts[position][1]);
         Picasso.with(this).load(chairs[position][0]).into(chairOne);
         Picasso.with(this).load(chairs[position][1]).into(chairTwo);
