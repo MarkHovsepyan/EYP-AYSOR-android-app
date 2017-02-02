@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AYSOR.iml" filepath="$PROJECT_DIR$/AYSOR.iml" />
       <module fileurl="file://$PROJECT_DIR$/EYP-AYSOR-android-app.iml" filepath="$PROJECT_DIR$/EYP-AYSOR-android-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

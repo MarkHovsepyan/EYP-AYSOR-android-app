@@ -27,10 +27,7 @@ public class CommitteeAdapter extends RecyclerView.Adapter<CommitteeAdapter.View
             R.drawable.commitee_4,
             R.drawable.commitee_5,
             R.drawable.commitee_6,
-            R.drawable.commitee_7,
-            R.drawable.commitee_8,
-            R.drawable.commitee_9,
-            R.drawable.commitee_10
+
     };
 
     private Context mCtx;
