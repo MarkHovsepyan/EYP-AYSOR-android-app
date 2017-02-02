@@ -7,7 +7,37 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="16dp"
+    android:background="@drawable/back"
     tools:context="com.aysoreyp.aysor.activities.CommitteeDetailActivity">
+
+
+    <ImageView
+        android:id="@+id/chair_1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/chair_2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginRight="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/committee_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_below="@id/chair_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

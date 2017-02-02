@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.aysoreyp.aysor.R;
 import com.aysoreyp.aysor.fragments.AboutFragment;
 import com.aysoreyp.aysor.fragments.CommiteesFragment;
-import com.aysoreyp.aysor.fragments.HomeFragment;
 import com.aysoreyp.aysor.fragments.MediaFragment;
 import com.aysoreyp.aysor.fragments.ScheduleFragment;
 
