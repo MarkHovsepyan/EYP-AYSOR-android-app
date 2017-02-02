@@ -17,10 +17,10 @@ import com.squareup.picasso.Picasso;
 public class CommitteeAdapter extends RecyclerView.Adapter<CommitteeAdapter.ViewHolder>{
 
     private int[] logos = {
-            R.drawable.commitee_1,
-            R.drawable.commitee_2,
-            R.drawable.commitee_3,
             R.drawable.commitee_4,
+            R.drawable.commitee_1,
+            R.drawable.commitee_3,
+            R.drawable.commitee_2,
             R.drawable.commitee_5,
             R.drawable.commitee_6,
 

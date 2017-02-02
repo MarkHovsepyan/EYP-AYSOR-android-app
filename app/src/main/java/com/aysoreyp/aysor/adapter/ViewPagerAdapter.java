@@ -14,7 +14,6 @@ import com.aysoreyp.aysor.fragments.ScheduleFragment;
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private int drawables[] = {
-            R.drawable.ic_home,
             R.drawable.ic_group,
             R.drawable.ic_schedule,
             R.drawable.ic_play,
@@ -30,12 +29,10 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         Fragment tab;
 
         if (position == 0) {
-            tab = new HomeFragment();
-        } else if (position == 1) {
             tab = new CommiteesFragment();
-        } else if (position == 2) {
+        } else if (position == 1) {
             tab = new ScheduleFragment();
-        } else if (position == 3) {
+        } else if (position == 2) {
             tab = new MediaFragment();
         } else {
             tab = new AboutFragment();
