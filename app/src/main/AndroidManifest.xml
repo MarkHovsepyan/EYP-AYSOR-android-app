@@ -25,7 +25,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.CommitteeDetailActivity"></activity>
+        <activity
+            android:name=".activities.CommitteeDetailActivity"
+            android:parentActivityName=".activities.MainActivity"></activity>
+        <activity android:name=".activities.ScheduleActivity"
+            android:parentActivityName=".activities.MainActivity"></activity>
     </application>
 
 </manifest>
