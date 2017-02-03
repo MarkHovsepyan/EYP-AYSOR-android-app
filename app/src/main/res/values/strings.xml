@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AYSOR</string>
+    <string name="app_name">EYP Armenia</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,6 +10,7 @@
     <string name="schedule">Schedule</string>
     <string name="media">Media</string>
     <string name="about">About</string>
+
     <string name="contacts">Contacts</string>
     <string name="large_text">
         Here should be icons with commitees with info within them.
@@ -104,7 +105,12 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="info_1">The European Youth Parliament (EYP), was founded in 1987 as the project of a school in Fontainebleau (France). It became a unique forum designed to actively engage young people in the molding of their future society and succeeded engaging more and more young people from all over Europe till nowadays.</string>
+    <string name="info_2">Based on the online voting, with 27 in favor, 2 against and 3 abstentions EYP Armenia was given a full membership in the European Youth Parliament on December 14, 2012. Since then, 40 projects have been implemented which involved around 4500 young people, hosted hundreds of youngsters from 70 countries of 5 continents.</string>
+    <string name="info_3"><![CDATA[As a National Selection Session, AYSOR4Innovation will be recruiting the best delegates to form an Armenian delegation to represent EYP Armenia in Trondheim&Røros2017 – 84th International Session of the EYP. The International Sessions are the flagship events of the EYP that bring together about 300 young people from around 40 European countries for 10 days.]]></string>
+    <string name="info_4">There are currently 40 National Committees in the EYP network that are the heart and soul of the organisation. Due to its active development and engagement EYP Armenia has recently taken the first place among other National Committees.</string>
+    <string name="info_5">What does EYP do?\n\n\t- International Forums\n\t- National Sessions\n\t- Regional Sessions\n\t- School Sessions\n\t- Trainings</string>
+    <string name="info_6">Android Developers:\nMark Hovsepyan and Narek Babajanyan</string>
 
 </resources>
