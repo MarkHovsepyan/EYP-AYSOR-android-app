@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aysoreyp.aysor.fragments.AboutFragment">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/info_pic_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/info_pic_1"/>
+
+        <TextView
+            android:id="@+id/info_txt_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_1"
+            android:text="@string/info_1"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/info_pic_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/info_txt_1"
+            android:src="@drawable/info_pic_2"/>
+
+        <TextView
+            android:id="@+id/info_txt_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_2"
+            android:text="@string/info_2"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/info_pic_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/info_txt_2"
+            android:src="@drawable/info_pic_3"/>
+
+        <TextView
+            android:id="@+id/info_txt_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_3"
+            android:text="@string/info_3"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/info_pic_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/info_txt_3"
+            android:src="@drawable/info_pic_4"/>
+
+        <TextView
+            android:id="@+id/info_txt_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_4"
+            android:text="@string/info_4"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/info_pic_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/info_txt_4"
+            android:src="@drawable/info_pic_5"/>
+
+        <TextView
+            android:id="@+id/info_txt_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_5"
+            android:text="@string/info_5"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/info_pic_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/info_txt_5"
+            android:src="@drawable/info_pic_6"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/info_txt_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_pic_6"
+            android:text="@string/info_6"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="80dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
